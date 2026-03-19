@@ -1,33 +1,13 @@
 application {
   config {
-    serverPort 8081
     baseName testproject17
-    packageName com.testproject17
     applicationType monolith
     authenticationType jwt
-    prodDatabaseType postgresql
-    devDatabaseType h2Disk
-    clientFramework angular
-    enableTranslation Boolean
-    nativeLanguage en
-    languages [en, fr],
-    testFrameworks [cypress],
     buildTool maven
-    jhiPrefix jhi
+    clientFramework angular
+    databaseType sql
+    devDatabaseType h2Disk
+    prodDatabaseType postgresql
+    packageName com.carnival.testproject17
   }
-  entities *
-}
-
-entity Product {
-  name String required
-  price BigDecimal required
-  stock Integer
-}
-
-entity Category {
-  name String required
-}
-
-relationship ManyToOne {
-  Product to Category
 }

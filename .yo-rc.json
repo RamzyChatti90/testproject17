@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "testproject17",
+    "buildTool": "maven",
+    "clientFramework": "angular",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "entities": [],
+    "jhipsterVersion": "8.11.0",
+    "jwtSecretKey": "ZjljNTI2YTU4MDMwOGFjMGU0NGY4ZWE5MDA2OTA5Njk3M2IwNDM4ZDIyMTJmYmM5YzY4MDI1ODI4MjVmNzUwODYxZTk4NjRkNTNiNzQyM2JjMWRlMzFiYzcxZmQ1NmRkYTBmNzA1Zjc5ZDg3ZTEwYzNjMzJhY2NjMjZjMzE5Yzg=",
+    "languages": ["en"],
+    "nativeLanguage": "en",
+    "packageName": "com.carnival.testproject17",
+    "prodDatabaseType": "postgresql"
+  }
+}
